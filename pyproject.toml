@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "clickhouse-learning"
+version = "0.1.0"
+description = "Learning ClickHouse with NYC Taxi data"
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.14"
+clickhouse-connect = "^0.6.0"
+pandas = "^2.3.3"
+numpy = "^2.4.1"
+matplotlib = "^3.10.8"
+pyqt5 = "^5.15.11"
+
+[tool.poetry.group.dev.dependencies]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
