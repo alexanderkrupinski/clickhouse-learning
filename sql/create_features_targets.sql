@@ -8,4 +8,4 @@ SELECT
 FROM labels AS l
 ASOF JOIN avg3d AS a
     ON l.uid = a.user_id
-    AND l.prediction_date <= a.day;
+    AND l.prediction_date >= a.day;
